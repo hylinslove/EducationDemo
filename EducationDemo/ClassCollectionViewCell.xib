@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ClassCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="91" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="91" height="118"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_yuwen" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-L4-wpJ">
+                        <rect key="frame" x="14" y="5" width="62" height="62"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="62" id="7N0-P4-yBh"/>
+                            <constraint firstAttribute="width" constant="62" id="BgL-Gq-PgY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1b-To-oRX">
+                        <rect key="frame" x="14" y="73" width="62" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPV-YB-mZh">
+                        <rect key="frame" x="14" y="93" width="62" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="1dI-L4-wpJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="2dz-Jf-c1c"/>
+                <constraint firstItem="k1b-To-oRX" firstAttribute="width" secondItem="1dI-L4-wpJ" secondAttribute="width" id="Gce-wd-1ul"/>
+                <constraint firstItem="YPV-YB-mZh" firstAttribute="width" secondItem="1dI-L4-wpJ" secondAttribute="width" id="JCo-pC-OeE"/>
+                <constraint firstItem="YPV-YB-mZh" firstAttribute="top" secondItem="k1b-To-oRX" secondAttribute="bottom" constant="5" id="KP3-Ip-9ad"/>
+                <constraint firstItem="YPV-YB-mZh" firstAttribute="centerX" secondItem="1dI-L4-wpJ" secondAttribute="centerX" id="S1u-sN-w4Y"/>
+                <constraint firstItem="1dI-L4-wpJ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="VL3-d8-JgL"/>
+                <constraint firstItem="k1b-To-oRX" firstAttribute="top" secondItem="1dI-L4-wpJ" secondAttribute="bottom" constant="5" id="WJr-a6-fCk"/>
+                <constraint firstItem="k1b-To-oRX" firstAttribute="centerX" secondItem="1dI-L4-wpJ" secondAttribute="centerX" id="iiU-8r-QLO"/>
+            </constraints>
+            <size key="customSize" width="91" height="118"/>
+            <connections>
+                <outlet property="count_class" destination="YPV-YB-mZh" id="3hd-P9-BI1"/>
+                <outlet property="icon_class" destination="1dI-L4-wpJ" id="u9B-CU-X9V"/>
+                <outlet property="name_class" destination="k1b-To-oRX" id="7kW-WH-iE6"/>
+            </connections>
+            <point key="canvasLocation" x="59.5" y="45"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_yuwen" width="211" height="211"/>
+    </resources>
+</document>

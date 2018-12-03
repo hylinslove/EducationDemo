@@ -1,0 +1,111 @@
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "12j-hc-460"; */
+"12j-hc-460.normalTitle" = "语文";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "1ir-a4-uhH"; */
+"1ir-a4-uhH.normalTitle" = "语文";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "2b3-Vj-tGL"; */
+"2b3-Vj-tGL.normalTitle" = "语文";
+
+/* Class = "UIButton"; normalTitle = "      修改密码"; ObjectID = "2ev-dN-Bfg"; */
+"2ev-dN-Bfg.normalTitle" = "      修改密码";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "4Q5-WC-dsR"; */
+"4Q5-WC-dsR.normalTitle" = "语文";
+
+/* Class = "UILabel"; text = "我"; ObjectID = "5Ka-Ee-GxM"; */
+"5Ka-Ee-GxM.text" = "我";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "9hh-jM-T0K"; */
+"9hh-jM-T0K.normalTitle" = "语文";
+
+/* Class = "UILabel"; text = "本周新增"; ObjectID = "C34-KX-bQf"; */
+"C34-KX-bQf.text" = "本周新增";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "E6U-HR-IDf"; */
+"E6U-HR-IDf.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "退出登录"; ObjectID = "EWD-Nm-VJO"; */
+"EWD-Nm-VJO.normalTitle" = "退出登录";
+
+/* Class = "UILabel"; text = "掌握程度"; ObjectID = "HEn-dZ-4LO"; */
+"HEn-dZ-4LO.text" = "掌握程度";
+
+/* Class = "UILabel"; text = "选择科目"; ObjectID = "Hvl-Jj-YyE"; */
+"Hvl-Jj-YyE.text" = "选择科目";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "M2j-ow-Ion"; */
+"M2j-ow-Ion.normalTitle" = "语文";
+
+/* Class = "UILabel"; text = "0/0"; ObjectID = "MQy-vt-lGi"; */
+"MQy-vt-lGi.text" = "0/0";
+
+/* Class = "UILabel"; text = "错题来源"; ObjectID = "OOS-TY-b7C"; */
+"OOS-TY-b7C.text" = "错题来源";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "PvV-SL-iQv"; */
+"PvV-SL-iQv.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "SMa-ZI-RD4"; */
+"SMa-ZI-RD4.normalTitle" = "语文";
+
+/* Class = "UIButton"; normalTitle = "      个人信息修改"; ObjectID = "TSc-Wb-kao"; */
+"TSc-Wb-kao.normalTitle" = "      个人信息修改";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "Urm-Gs-1xp"; */
+"Urm-Gs-1xp.normalTitle" = "确定";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "VEZ-AR-gda"; */
+"VEZ-AR-gda.normalTitle" = "语文";
+
+/* Class = "UILabel"; text = "未掌握/已掌握"; ObjectID = "WgH-d6-qo5"; */
+"WgH-d6-qo5.text" = "未掌握/已掌握";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Z80-vb-yL4"; */
+"Z80-vb-yL4.text" = "0";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "aJX-RB-4BR"; */
+"aJX-RB-4BR.title" = "我的";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "fRB-F6-wsK"; */
+"fRB-F6-wsK.normalTitle" = "语文";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "gcu-Ln-RW2"; */
+"gcu-Ln-RW2.normalTitle" = "语文";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "iha-7a-ZAB"; */
+"iha-7a-ZAB.normalTitle" = "登录";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "j3o-Y6-OFx"; */
+"j3o-Y6-OFx.normalTitle" = "语文";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "k8D-b1-0sm"; */
+"k8D-b1-0sm.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "kPr-Ju-MNw"; */
+"kPr-Ju-MNw.normalTitle" = "语文";
+
+/* Class = "UIViewController"; title = "首页"; ObjectID = "odU-5o-gbg"; */
+"odU-5o-gbg.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "      日期提醒设置"; ObjectID = "q5a-ss-cIz"; */
+"q5a-ss-cIz.normalTitle" = "      日期提醒设置";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "rKT-xK-hnb"; */
+"rKT-xK-hnb.normalTitle" = "语文";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "u9M-cX-lYa"; */
+"u9M-cX-lYa.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "错题来源"; ObjectID = "u9Y-BY-Gk1"; */
+"u9Y-BY-Gk1.text" = "错题来源";
+
+/* Class = "UIButton"; normalTitle = "放弃"; ObjectID = "wXx-Ia-a7z"; */
+"wXx-Ia-a7z.normalTitle" = "放弃";
+
+/* Class = "UILabel"; text = "本周掌握"; ObjectID = "xdw-OB-uEj"; */
+"xdw-OB-uEj.text" = "本周掌握";
+
+/* Class = "UIButton"; normalTitle = "语文"; ObjectID = "zNO-BV-bO3"; */
+"zNO-BV-bO3.normalTitle" = "语文";

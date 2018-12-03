@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "MainViewController.h"
+#import <IQKeyboardManager.h>
+#import "DBManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    [self.window makeKeyAndVisible];
+//
+//    LoginViewController *loginVC = [[LoginViewController alloc]init];
+//    
+//    TestViewController *testVC = [[TestViewController alloc]init];
+//    
+//    
+//    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginVC];
+//    
+//    UINavigationController *navigationController2 = [[UINavigationController alloc] initWithRootViewController:testVC];
+//    if (false) {
+//         [self.window setRootViewController:navigationController];
+//    } else{
+//        [self.window setRootViewController:navigationController2];
+//    }
+//   
+//    
+//    [self persistentContainer];
+    [NSThread sleepForTimeInterval:1.0];
+    
+    
+    IQKeyboardManager *keyboardManager = [IQKeyboardManager sharedManager]; // 获取类库的单例变量
+    
+    keyboardManager.enable = YES; // 控制整个功能是否启用
+    
+    keyboardManager.shouldResignOnTouchOutside = YES; // 控制点击背景是否收起键盘
+
+    [[DBManager sharedManger] initDBTool];
+    
+    _userId = @"user1";
+    
     return YES;
 }
 
